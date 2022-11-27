@@ -18,5 +18,6 @@ int main() {
     float t = sqrt(3 * (y / (z - 2 * y))) - y * z;
 
     printf("Result t = %.2f\n", t);
-
+    
+    return 0;
 }
