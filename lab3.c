@@ -1,38 +1,38 @@
-﻿#include <stdio.h>
+#include <stdio.h>
 #include <math.h>
 
 
 
 /*int main() { //Перше завдання А)
 
-	int a, b, c;
+	float a, b, c;
 
 
 	printf("Enter b, c:\n");
-		scanf_s("%d, %d", &b, &c);
+		scanf_s("%f, %f", &b, &c);
 
 		if (b == 1)
 		{
 			a = 4 * b - 5 * c;
-			printf("a = %d\n", a);
+			printf("a = %.2f\n", a);
 		}
 
 		if (b == 2)
 		{
 			a = sqrt(4 - b * c);
-			printf("a = %d\n", a);
+			printf("a = %.2f\n", a);
 		}
 
 		if (b == 3)
 		{
 			a = b / pow(c, 2);
-			printf("a = %d\n", a);
+			printf("a = %.2f\n", a);
 		}
 
 
-		else
+		if (b!=1 && b!=2 && b!=3)
 		{
-			printf("it is not possible to evaluate the value of the expression");
+			printf("It's not possible to evaluate the value of the expression");
 		}
 
 
@@ -42,34 +42,34 @@
 
 /*int main() { //Перше завдання Б)
 
-	int a, b, c;
+	float a, b, c;
 
 
 	printf("Enter b, c:\n");
-	scanf_s("%d, %d", &b, &c);
+	scanf_s("%f, %f", &b, &c);
 
 	if (b == 1)
 	{
 		a = 4 * b - 5 * c;
-		printf("a = %d\n", a);
+		printf("a = %.2f\n", a);
 	}
 
 	else if (b == 2)
 	{
 		a = sqrt(4 - b * c);
-		printf("a = %d\n", a);
+		printf("a = %.2f\n", a);
 	}
 
 	else if (b == 3)
 	{
 		a = b / pow(c, 2);
-		printf("a = %d\n", a);
+		printf("a = %.2f\n", a);
 	}
 
 
 	else
 	{
-		printf("it is not possible to evaluate the value of the expression");
+		printf("It's not possible to evaluate the value of the expression");
 	}
 
 
@@ -142,7 +142,7 @@ int main() { // Третє завдання
 	}
 	else
 	{
-		printf("%d\n", y);
+		printf("Result:\n%d", y);
 	}
 
 	return 0;
